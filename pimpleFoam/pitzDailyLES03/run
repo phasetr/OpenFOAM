@@ -1,0 +1,10 @@
+#!/bin/bash
+cd ${0%/*} || exit 1    # Run from this directory
+. $WM_PROJECT_DIR/bin/tools/RunFunctions
+
+runApplication blockMesh
+runApplication checkMesh
+runApplication decomposePar
+mpirun -np 6 pimpleFoam -parallel # 6 はマシンごとに調整
+runApplication reconstructPar -newTimes
+paraFoam &
