@@ -6,6 +6,8 @@
 - `pitzDaily` と同じく 2 次元で解いている.
 
 ## メモ
+- pimple なので非圧縮.
+- $nu = 10^{-5}$ なのでかなりさらさらの流れ.
 - RANS よりめちゃくちゃ時間がかかる (当然).
     - 全実時間は短くしておいた.
 - RANS と LES で結果が全然違う
@@ -21,7 +23,3 @@
 - 並列実行させているのでコア数に注意.
     - Allrun での mpirun -np で指定した数と,
       system/decomposeParDict での numberOfSubdomains を合わせる.
-
-## メモ
-- pimple なので非圧縮.
-- $nu = 10^{-5}$ なのでかなりさらさらの流れ.
