@@ -161,6 +161,13 @@ financialFoam   商品価格に対するブラック・ショールズ方程式
 --------------- --------------------------------------------
 
 ## OpenFOAM 参考情報
+### MISC
+- [日本語ユーザーマニュアル](http://foam.sourceforge.net/docs/Guides-a4/UserGuide-Japanese.pdf)
+
+### 境界条件
+- [リスト](https://www.openfoam.com/documentation/user-guide/standard-boundaryconditions.php)
+- [noSlip](https://www.openfoam.com/documentation/guides/latest/doc/guide-bcs-wall-no-slip.html)
+
 ### fvOptions
 - [参考ページ](http://penguinitis.g1.xrea.com/study/OpenFOAM/fvOptions/fvOptions.html)
 
