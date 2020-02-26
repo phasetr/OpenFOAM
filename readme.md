@@ -6,7 +6,7 @@
     - マシンによってコア数を調整する必要あり.
 
 ## キャプチャー
-### simplescreenrecorder
+### simplescreenrecorder (Linux)
 - [参考](https://ry0.github.io/blog/2016/02/21/simplescreenrecorder/)
 
 インストールは下記の通り.
@@ -159,6 +159,13 @@ solidEquilibriumDisplacementFoam   定常/線形弾性体用の分離型有限�
 --------------- --------------------------------------------
 financialFoam   商品価格に対するブラック・ショールズ方程式
 --------------- --------------------------------------------
+
+## OpenFOAM 参考情報
+### fvOptions
+- [参考ページ](http://penguinitis.g1.xrea.com/study/OpenFOAM/fvOptions/fvOptions.html)
+
+OpenFOAM 内の既存の方程式を修正できる.
+設定ファイルは `system` に `fvOptions` として置く.
 
 ## YouTube の動画リスト
 - https://www.youtube.com/playlist?list=PLSBzltjFoprYN0Rh3tLmoHWqjPRYwJukv
