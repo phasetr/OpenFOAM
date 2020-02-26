@@ -24,7 +24,8 @@ simplescreenrecorder
 さらなる大元は [Standard solvers](http://www.openfoam.com/documentation/user-guide/standard-solvers.php).
 
 ### 基本
-|---------------------|----------------------------------------------------------|
+| コマンド            | 説明                                                     |
+|---------------------+----------------------------------------------------------|
 | laplacianFoam       | 拡散項のみからなる拡散方程式（伝導方程式）を解きます。   |
 | potentialFoam       | ポテンシャル流れ（完全流体の流れ）を解きます。           |
 | scalarTransportFoam | 与えられた流速場での受動的なスカラー量の輸送を解きます。 |
