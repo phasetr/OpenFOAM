@@ -4,6 +4,8 @@
 - 計算で生成したファイルは clean で消せる.
 - 基本的に mpirun で並列化している.
     - マシンによってコア数を調整する必要あり.
+- mpi の結果結合や Paraview の処理時間が増えるので,
+  出力 (system/controlDict の writeInterval) は必要以上に細かくしないこと.
 
 ## キャプチャー
 ### simplescreenrecorder (Linux)
