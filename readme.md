@@ -162,6 +162,9 @@ simplescreenrecorder
 |:---------------|:--------------------------------------------|
 | financialFoam | 商品価格に対するブラック・ショールズ方程式 |
 
+## 境界条件の設定
+- [参考ページ](https://www.openfoam.com/documentation/user-guide/standard-boundaryconditions.php)
+
 ## OpenFOAM 参考情報
 ### MISC
 - [日本語ユーザーマニュアル](http://foam.sourceforge.net/docs/Guides-a4/UserGuide-Japanese.pdf)
