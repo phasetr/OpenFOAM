@@ -8,6 +8,6 @@ sed -i "22c\        type            empty;" constant/polyMesh/boundary
 sed -i "36c\        type            wall;" constant/polyMesh/boundary
 runApplication checkMesh
 runApplication decomposePar
-mpirun -np 6 pimpleFoam -parallel # 6 はマシンごとに調整
+mpirun -np 6 pimpleFoam -parallel > log # 6 はマシンごとに調整
 runApplication reconstructPar -newTimes
 paraFoam &

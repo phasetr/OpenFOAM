@@ -6,6 +6,6 @@ gmsh -3 mesh.geo -format msh2 -o mesh.msh
 runApplication gmshToFoam mesh.msh
 sed -i "22c\        type            wall;" constant/polyMesh/boundary
 runApplication decomposePar
-mpirun -np 6 pimpleFoam -parallel # 6 はマシンごとに調整
+mpirun -np 6 pimpleFoam -parallel > log # 6 はマシンごとに調整
 runApplication reconstructPar -newTimes
 paraFoam &
