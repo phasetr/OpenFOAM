@@ -1,4 +1,8 @@
+!0/
+!readme.md
 *.OpenFOAM
+*.dat
+*.eps
 *.iges
 *.mp4
 *.msh
@@ -9,9 +13,10 @@
 [0-9]*/
 [0-9]*e-[0-9]*/
 cellToRegion
+log
 log.*
 polyMesh/
+postProcessing
 processor*/
 result.*
-!0/
-!readme.md
+validation
