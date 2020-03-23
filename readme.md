@@ -183,10 +183,14 @@ OpenFOAM 内の既存の方程式を修正できる.
 - https://www.youtube.com/playlist?list=PLSBzltjFoprYN0Rh3tLmoHWqjPRYwJukv
 
 ## YouTube 投稿時のテンプレート
+### タイトル
+LES 3次元 pitzDaily Gmsh 粗いメッシュ OpenFOAMによる数値シミュレーション
+
+### コメント
 今回の OpenFOAM の設定は次のリポジトリにあります.
 
 - 対象のディレクトリ
-- https://github.com/phasetr/OpenFOAM
+- https://github.com/phasetr/OpenFOAM/
 
 これ以外にもいろいろなコンテンツや無料の通信講座を作っています.
 
